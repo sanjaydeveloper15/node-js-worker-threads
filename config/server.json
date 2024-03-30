@@ -1,0 +1,6 @@
+{
+    "appName": "Node.js multi-threading with node:worker_threads",
+    "dbHostLocal": "mongodb://localhost:27017/dev",
+    "dbPort": 3306,
+    "port": 5002
+}

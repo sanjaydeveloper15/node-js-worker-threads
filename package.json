@@ -1,0 +1,33 @@
+{
+  "name": "node-js-worker-threads",
+  "version": "1.0.0",
+  "description": "Multi-threading in Node.js via using of node:worker_threads.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaydeveloper15/node-js-worker-threads.git"
+  },
+  "keywords": [
+    "node.js",
+    "multi-threading",
+    "worker-threads"
+  ],
+  "author": "Sanjay Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanjaydeveloper15/node-js-worker-threads/issues"
+  },
+  "homepage": "https://github.com/sanjaydeveloper15/node-js-worker-threads#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
