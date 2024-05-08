@@ -2,7 +2,9 @@
 
 As we know JS is single threading langauge so here in this repo will use worker_threads in node.js to achive multi-threading and improve the performance of our REST apis.
 
-![alt text](https://i.ibb.co/SxjKbtF/education-funda-node-js-logo.png "Node Typescript")
+<p align="center">
+  <img src="https://i.ibb.co/SxjKbtF/education-funda-node-js-logo.png" alt="Node Worker Threads - Education Funda"/>
+</p>
 
 ---
 ## Requirements
