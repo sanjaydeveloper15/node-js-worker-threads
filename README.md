@@ -7,6 +7,12 @@ As we know JS is single threading langauge so here in this repo will use worker_
 </p>
 
 ---
+## Features
+ - Example Rest API included which blocking MainThread.
+ - Example Rest API included which is NOT blocking our MainThread.
+
+ If you first hit Blocking API then check Listing API it takes slight more time whereas if you hit Non-Blocking API then check Listing API it takes slight less time, it will IMPACT lot when having huge traffic OR huge volument of data in DB. 
+
 ## Requirements
 
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.

@@ -1,8 +1,9 @@
 "use strict";
 import express from "express";
-import mongoose from "mongoose";
+import dbConnmongooseDb from '../config/mongoose-conn.js';
 import { readFile } from "fs/promises";
 import router from "./routes/index.js";
+import mongooseDb from "../config/mongoose-conn.js";
 const app = express();
 
 //api v1 base route set
@@ -18,9 +19,6 @@ app.listen(server.port, "0.0.0.0", () => {
   console.log(`Server started on port:${server.port}`);
 });
 
-//db connect
-mongoose.connect(server.dbHostLocal);
-const conn = mongoose.connection;
-conn.on("open", () => {
-  console.log("mongodb connected");
-});
+const mongoDB = new mongooseDb();
+mongoDB.connect()
+
