@@ -11,7 +11,7 @@ As we know JS is single threading langauge so here in this repo will use worker_
  - Example Rest API included which blocking MainThread.
  - Example Rest API included which is NOT blocking our MainThread.
 
- If you first hit Blocking API then check Listing API it takes slight more time whereas if you hit Non-Blocking API then check Listing API it takes slight less time, it will IMPACT lot when having huge traffic OR huge volument of data in DB. 
+ If you first hit Blocking API then check Listing API it takes slight more time whereas if you hit Non-Blocking API then check Listing API it takes slight less time, it will IMPACT lot when having huge traffic OR huge volument of data in Database. 
 
 ## Requirements
 
